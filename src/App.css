@@ -12,7 +12,28 @@
   }
 }
 
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
+
 /* common classes */
 .color-white {
   color: white !important;
+}
+
+* {
+  scroll-behavior: smooth;
 }
